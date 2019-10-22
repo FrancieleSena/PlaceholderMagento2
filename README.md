@@ -33,7 +33,7 @@ composer require franciele-sena/placeholder-magento-2
 sudo bin/magento module:enable Jsp_Placeholder
 sudo bin/magento setup:upgrade
 sudo bin/magento setup:di:compile
-php bin/magento cache:clean
+sudo php bin/magento cache:clean
 ```
 
 ## ou manualmente
@@ -46,5 +46,5 @@ Para instalar a tradução manualmente você irá precisar acessar seu servidor.
 * Ativar Módulo: sudo bin/magento module:enable Jsp_Placeholder
 * Upgrade setup: sudo bin/magento setup:upgrade
 * Compile setup: sudo bin/magento setup:di:compile
-* Limpar Cache: php bin/magento cache:clean
+* Limpar Cache: sudo php bin/magento cache:clean
 
