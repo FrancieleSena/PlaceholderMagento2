@@ -29,7 +29,7 @@ etc/config.xml: Configurações padrões
 Para instalar essa tradução via [Composer](https://getcomposer.org) você precisa usar o terminal do seu servidor.
 
 ```
-composer require rafaelstz/traducao_magento2_pt_br:dev-master
+composer require franciele-sena/placeholder-magento-2
 enable module : sudo bin/magento module:enable Jsp_Placeholder
 upgrade setup : sudo bin/magento setup:upgrade
 compile setup : sudo bin/magento setup:di:compile
@@ -41,19 +41,10 @@ php bin/magento cache:clean
 Para instalar a tradução manualmente você irá precisar acessar seu servidor.
 
 * Crie o diretório **app/code/Jsp/Placeholder**
-* Efetue o [download do zip](https://github.com/rafaelstz/traducao_magento2_pt_br/archive/master.zip)
+* Efetue o [download do zip](https://github.com/franciele-sena/placeholder-magento-2/archive/master.zip)
 * Mova o conteúdo do repositório para a pasta
 * Enable module : sudo bin/magento module:enable Jsp_Placeholder
 * Upgrade setup : sudo bin/magento setup:upgrade
 * Compile setup : sudo bin/magento setup:di:compile
 * php bin/magento cache:clean
 
-# Ajude
-
-Ajude a melhorar a tradução oficial do Magento 2 para Português Brasil usando [esse link da página Crowdin](https://crowdin.com/project/magento-2/pt-BR).
-
-# Autores
-Essa tradução foi criada oficialmente para o Magento 2 usando o [Crowdin](https://crowdin.com/project/magento-2).
-Esse repositório do Github foi criado por mim para facilitar a instalação.
-
-[Rafael Corrêa Gomes](https://github.com/rafaelstz)
