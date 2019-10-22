@@ -1,8 +1,8 @@
 {
-  "name": "FrancieleSena/PlaceholderMagento2",
+  "name": "franciele-sena/placeholder-magento-2",
   "description": "Aplicação de Placeholder nos campos do formulário de Checkout Magento 2",
   "version": "1.0.0",
-  "homepage": "https://github.com/FrancieleSena/PlaceholderMagento2",
+  "homepage": "https://github.com/franciele-sena/placeholder-magento-2",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
