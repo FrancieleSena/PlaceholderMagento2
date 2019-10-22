@@ -40,7 +40,7 @@ php bin/magento cache:clean
 
 Para instalar a tradução manualmente você irá precisar acessar seu servidor.
 
-* Crie o diretório **app/code/Jsp/Placeholder**
+* No diretório **app/code/**
 * Efetue o [download do zip](https://github.com/franciele-sena/placeholder-magento-2/archive/master.zip)
 * Mova o conteúdo do repositório para a pasta
 * Ativar Módulo: sudo bin/magento module:enable Jsp_Placeholder
