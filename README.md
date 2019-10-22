@@ -30,9 +30,9 @@ Para instalar essa tradução via [Composer](https://getcomposer.org) você prec
 
 ```
 composer require franciele-sena/placeholder-magento-2
-enable module : sudo bin/magento module:enable Jsp_Placeholder
-upgrade setup : sudo bin/magento setup:upgrade
-compile setup : sudo bin/magento setup:di:compile
+sudo bin/magento module:enable Jsp_Placeholder
+sudo bin/magento setup:upgrade
+sudo bin/magento setup:di:compile
 php bin/magento cache:clean
 ```
 
@@ -43,8 +43,8 @@ Para instalar a tradução manualmente você irá precisar acessar seu servidor.
 * Crie o diretório **app/code/Jsp/Placeholder**
 * Efetue o [download do zip](https://github.com/franciele-sena/placeholder-magento-2/archive/master.zip)
 * Mova o conteúdo do repositório para a pasta
-* Enable module : sudo bin/magento module:enable Jsp_Placeholder
-* Upgrade setup : sudo bin/magento setup:upgrade
-* Compile setup : sudo bin/magento setup:di:compile
-* php bin/magento cache:clean
+* Ativar Módulo: sudo bin/magento module:enable Jsp_Placeholder
+* Upgrade setup: sudo bin/magento setup:upgrade
+* Compile setup: sudo bin/magento setup:di:compile
+* Limpar Cache: php bin/magento cache:clean
 
