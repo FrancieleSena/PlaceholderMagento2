@@ -2,7 +2,7 @@
   <br>
     <img src="https://i.imgur.com/d8QEHRb.png" alt="Tradução Magento 2 pt_BR" width="128" height="128" title="Tradução Magento 2 pt_BR"/> 
   <br>
-  Aplicação de Placeholder nos campos do formulário de Checkkout Magento 2
+  Aplicação de Placeholder nos campos do formulário de Checkout Magento 2
   <br>
 </h1>
 
