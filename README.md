@@ -26,7 +26,7 @@ etc/config.xml: Configurações padrões
 
 ## Via Composer 
 
-Para instalar essa tradução via [Composer](https://getcomposer.org) você precisa usar o terminal do seu servidor.
+Para instalar esse módulo via [Composer](https://getcomposer.org) você precisa usar o terminal do seu servidor.
 
 ```
 composer require franciele-sena/placeholder-magento-2
