@@ -10,7 +10,7 @@ Para realizar alterações na estrutura do Magento 2 é necessário criar um mó
 
 Isso significa que é possível adicionar, remover, renomear, reconfigurar e modificar características internas dos elementos sem realizar quaisquer alterações no módulo original, ou seja, aplica-se o conceito de Loose Coupling.
 
-#Estrutura do Módulo
+### Estrutura do Módulo
 - etc/module.xml: Definição do módulo
 - etc/events.xml (ou etc/{area}/events.xml): Definição dos eventos 
 - etc/adminhtml/system.xml: Configurações
